@@ -1,0 +1,1 @@
+Score_maximizacion =  + 0.9774 * tasa_recuperacion + 0.0072 * tasa_recuperacion_monto + 0.0061 * nombre_emisora_SANTANDER CLABE TRADICIONAL + 0.0033 * idEmisora0.0018 * idBanco + 0.0018 * idCredito + 0.0017 * nombre_emisora_SANTANDER CLABE INTERBANCARIO + 0.0003 * total_intentos + 0.0001 * nombre_emisora_BBVA CLABE INTERBANCARIA + 0.0001 * nombre_emisora_BBVA CUENTA EN LINEA

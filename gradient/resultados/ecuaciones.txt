@@ -1,0 +1,5 @@
+Ecuación para minimización de costos:
+Score_minimizacion =  + 0.8710 * tasa_recuperacion + 0.1091 * nombre_emisora_BANAMEX CLABE TRADICIONAL0.0097 * idBanco + 0.0057 * costo_por_peso_recuperado + 0.0030 * idCredito + 0.0005 * idEmisora + 0.0004 * nombre_emisora_BBVA CLABE PARCIAL + 0.0002 * nombre_emisora_SANTANDER TRADICIONAL REINTENTO  + 0.0002 * tasa_recuperacion_monto + 0.0001 * nombre_emisora_BANAMEX TARJETA
+
+Ecuación para maximización de cobranza:
+Score_maximizacion =  + 0.9774 * tasa_recuperacion + 0.0072 * tasa_recuperacion_monto + 0.0061 * nombre_emisora_SANTANDER CLABE TRADICIONAL + 0.0033 * idEmisora0.0018 * idBanco + 0.0018 * idCredito + 0.0017 * nombre_emisora_SANTANDER CLABE INTERBANCARIO + 0.0003 * total_intentos + 0.0001 * nombre_emisora_BBVA CLABE INTERBANCARIA + 0.0001 * nombre_emisora_BBVA CUENTA EN LINEA

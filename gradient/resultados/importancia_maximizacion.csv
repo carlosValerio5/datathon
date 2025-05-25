@@ -1,0 +1,35 @@
+Feature,Importance
+tasa_recuperacion,0.97737724
+tasa_recuperacion_monto,0.007168819
+nombre_emisora_SANTANDER CLABE TRADICIONAL,0.0061200387
+idEmisora,0.0032705795
+idBanco,0.0018421512
+idCredito,0.0018226836
+nombre_emisora_SANTANDER CLABE INTERBANCARIO,0.0017140295
+total_intentos,0.00030339573
+nombre_emisora_BBVA CLABE INTERBANCARIA,0.00013041179
+nombre_emisora_BBVA CUENTA EN LINEA,0.00012120178
+nombre_emisora_None,6.518541e-05
+total_exitosos,6.425345e-05
+nombre_banco_HSBC,0.0
+nombre_banco_BANAMEX,0.0
+nombre_banco_SANTANDER,0.0
+monto_recuperado,0.0
+monto_intentado,0.0
+nombre_banco_BBVA MEXICO,0.0
+nombre_banco_BANCOPPEL,0.0
+nombre_banco_AFIRME,0.0
+nombre_banco_AZTECA,0.0
+nombre_banco_BANCO DEL BAJIO,0.0
+nombre_banco_SCOTIABANK,0.0
+nombre_banco_BANREGIO,0.0
+nombre_emisora_BANAMEX INTERBANCARIO,0.0
+nombre_emisora_BANAMEX TARJETA,0.0
+nombre_emisora_BBVA CLABE EN LINEA,0.0
+nombre_emisora_SANTANDER TRADICIONAL REINTENTO ,0.0
+tipo_servicio_None,0.0
+canal_envio_None,0.0
+tipo_envio_None,0.0
+tipo_cobro_None,0.0
+horario_carga_None,0.0
+rango_cobro_banco_None,0.0

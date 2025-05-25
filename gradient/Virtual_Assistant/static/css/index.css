@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(37, 38, 38);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace; /*fuente*/
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.microphone {
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    background-color: rgb(100, 100, 101);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*centra el microfono en la pantalla (esto es mas que nada para que se ajuste en cualquier dispositivo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: top 0.5s ease, background-color 0.3s ease, transform 0.3s ease; /* Cambia el color de fondo al hacer hover */
+    /*la neta eso del diseño si fue del autocompletador transicion y asignar color, me gusto ya que se ve una transicion smooth*/
+    font-size: 30px; /*tamaño de la imagen*/
+    color: white;
+}
+.microphone.active {
+    background-color: rgb(154, 64, 64);
+}
+.microphone.moved {
+    top: 25%; /*cambia la posicion del microfono cuando se presiona, en este caso arriba del centro*/
+}
+.box {
+    width: 90%;
+    max-width: 500px; 
+    margin-top: 20px; /*espacio entre el microfono y el cuadro de texto*/
+    padding: 10px; /*espacio interno del cuadro de texto*/
+    display: none;
+    text-align: justify; /*justifica RESPUESTA */
+}
+.box textarea {
+    width: 100%; /*ancho del cuadro de texto*/
+    height: 200px; /*alto del cuadro de texto*/
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(186, 186, 186);
+    resize: none;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace; /*fuente*/
+    font-size: 14px; /*tamaño de la fuente*/
+}
